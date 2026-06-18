@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">快捷键Pro</string>
+
+    <!-- Main Screen -->
+    <string name="current_action">当前: %s</string>
+
+    <!-- Gesture Tabs -->
+    <string name="tab_single">单击</string>
+    <string name="tab_double">双击</string>
+    <string name="tab_long">长按</string>
+    <string name="pass_through">透传</string>
+
+
+    <!-- Editor Modes -->
+    <string name="mode_preset">Intent Action</string>
+    <string name="mode_shell">Shell 命令</string>
+
+    <!-- Preset Actions -->
+    <string name="preset_section_title">预设 Action</string>
+    <string name="preset_image_capture">📷 拍照</string>
+    <string name="preset_video_capture">🎥 录像</string>
+    <string name="preset_web_search">🎤 语音搜索</string>
+    <string name="preset_settings">⚙ 系统设置</string>
+    <string name="preset_app_settings">📱 应用管理</string>
+    <string name="preset_date_settings">📅 日期和时间</string>
+    <string name="preset_dev_settings">🔌 开发者选项</string>
+    <string name="preset_power_usage">🔋 电池使用</string>
+    <string name="preset_assistant">🎙 设备助手</string>
+
+    <!-- Custom Action Section -->
+    <string name="custom_section_title">自定义 Action</string>
+    <string name="custom_input_placeholder">选中自定义 Action 后显示/编辑</string>
+    <string name="custom_input_label">ACTION</string>
+    <string name="btn_add">添加</string>
+    <string name="btn_update">更新</string>
+    <string name="btn_delete">删除</string>
+
+    <!-- Shell Section -->
+    <string name="shell_section_title">输入 Shell 命令</string>
+    <string name="shell_input_placeholder">如 am start -a android.intent.action.VIEW</string>
+    <string name="shell_input_label">Shell 命令</string>
+    <string name="shell_use_root">需要 root 权限，请在 root 管理器中，赋予包名为 \"android\" 的应用而非本应用 root 权限</string>
+    <string name="shell_show_output">展示命令输出结果</string>
+    <string name="shell_output_toast">Toast 提示</string>
+    <string name="shell_output_notification">系统通知</string>
+    <string name="shell_output_dialog">弹窗提示</string>
+    <string name="shell_output_toast_desc">简短，最多展示两行</string>
+    <string name="shell_output_notification_desc">无打扰，行数有限</string>
+    <string name="shell_output_dialog_desc">完整展示输出</string>
+    <string name="shell_exec_success">Shell 执行成功</string>
+    <string name="shell_exec_failed">Shell 执行失败</string>
+    <string name="shell_msg_success_empty">执行成功（无输出结果）</string>
+    <string name="shell_msg_no_error_details">无错误详情</string>
+    <string name="shell_msg_timeout">执行超时 (超过 10 秒)</string>
+    <string name="shell_msg_failed_with_code">执行失败 (退出码: %1$d)</string>
+
+    <!-- Add Action Dialog -->
+    <string name="dialog_add_title">添加自定义 Action</string>
+    <string name="dialog_edit_title">编辑自定义 Action</string>
+    <string name="dialog_label_hint">Label</string>
+    <string name="dialog_label_placeholder">为这个 Action 起个名字</string>
+    <string name="dialog_action_hint">Action</string>
+    <string name="dialog_action_placeholder">输入 ACTION 字符串</string>
+    <string name="btn_confirm">确定</string>
+    <string name="btn_cancel">取消</string>
+
+    <!-- Delete Confirmation Dialog -->
+    <string name="dialog_delete_title">删除自定义 Action</string>
+    <string name="dialog_delete_message">确定要删除 \"%s\" 吗？</string>
+    <string name="btn_delete_confirm">删除</string>
+
+    <!-- Validation Errors -->
+    <string name="error_label_empty">Label 不能为空</string>
+    <string name="error_action_empty">Action 不能为空</string>
+    <string name="error_label_duplicate">Label 已存在，请重新输入</string>
+
+    <!-- Legacy PreferenceScreen (kept for AAPT linkage) -->
+    <string name="messages_header">消息</string>
+    <string name="signature_title">签名</string>
+    <string name="reply_title">回复</string>
+    <string name="sync_header">同步</string>
+    <string name="sync_title">同步</string>
+    <string name="attachment_title">附件</string>
+    <string name="attachment_summary_on">自动下载附件</string>
+    <string name="attachment_summary_off">仅 Wi-Fi 时下载</string>
+
+    <string name ="app_description">ActionButtonInterceptor 是一个简单的应用，可以让你自定义在设备上按下 Action 按钮时触发的操作。</string>
+
+    <!-- Appbar and Instructions -->
+    <string name="menu_instructions">使用须知</string>
+    <string name="dialog_instructions_title">使用须知</string>
+    <string name="dialog_instructions_message">1. 系统设置前置：\n您必须先在系统快捷键设置里选择并启用任意一个功能项，否则系统将根本不会发出任何按键事件，本应用也将无法触发或拦截该按键！\n\n2. 免责声明：\n本软件涉及系统底层定制。任何底层修改均存在潜在风险，包括但不限于设备不稳定、系统无限重启（卡开机）或变砖。作者不对因使用本软件造成的任何设备故障、数据丢失或其它损失承担任何责任，请自行承担风险并谨慎使用！</string>
+    <string name="btn_got_it">我知道了</string>
+    <string name="section_action_mode">动作模式</string>
+    <string name="toast_master_switch_on">系统快捷键已成功被「快捷键Pro」接管</string>
+    <string name="toast_master_switch_off">「快捷键Pro」已停止接管系统快捷键</string>
+    <string name="about_section_title">关于</string>
+    <string name="about_author_label">作者</string>
+    <string name="about_license_label">开源协议</string>
+    <string name="about_repo_label">开源仓库</string>
+    <string name="about_repo_desc">点击跳转浏览器</string>
+
+    <!-- New Settings strings -->
+    <string name="tab_settings">设置</string>
+    <string name="settings_double_click_timeout_title">双击检测延迟窗口</string>
+    <string name="settings_double_click_timeout_desc">单击时延迟该时间以检测/等待是否双击</string>
+    <string name="settings_debounce_timeout_title">事件防抖</string>
+    <string name="settings_debounce_timeout_desc">防止同类事件在短时间内重复、多次触发</string>
+    <string name="settings_vibrate_title">是否开启长按震动</string>
+    <string name="settings_vibrate_desc">开启后，触发长按手势时会有短暂的震动提示</string>
+</resources>

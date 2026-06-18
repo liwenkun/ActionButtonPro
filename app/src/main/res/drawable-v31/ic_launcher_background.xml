@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 使用 Android 12+ (API 31) 系统内置的 Material You 动态色彩系统 (Monet) 颜色 -->
+    <!-- system_accent1_600 会自动提取壁纸的深色主色调，确保与白色前景有高对比度 -->
+    <path
+        android:fillColor="@android:color/system_accent1_600"
+        android:pathData="M0,0h108v108h-108z" />
+</vector>

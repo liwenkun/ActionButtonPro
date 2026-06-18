@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Long Press: Minimal horizontal capsule (rounded-end bar) -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M7.5,8.5H16.5A3.5,3.5 0 0,1 20,12A3.5,3.5 0 0,1 16.5,15.5H7.5A3.5,3.5 0 0,1 4,12A3.5,3.5 0 0,1 7.5,8.5Z" />
+</vector>

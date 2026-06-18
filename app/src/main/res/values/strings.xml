@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Action Button Pro</string>
+
+    <!-- Main Screen -->
+    <string name="current_action">Current: %s</string>
+
+    <!-- Gesture Tabs -->
+    <string name="tab_single">Single Tap</string>
+    <string name="tab_double">Double Tap</string>
+    <string name="tab_long">Long Press</string>
+    <string name="pass_through">Pass Through</string>
+
+    <!-- Editor Modes -->
+    <string name="mode_preset">Intent Action</string>
+    <string name="mode_shell">Shell Command</string>
+
+    <!-- Preset Actions -->
+    <string name="preset_section_title">Preset Actions</string>
+    <string name="preset_image_capture">📷 Camera</string>
+    <string name="preset_video_capture">🎥 Video</string>
+    <string name="preset_web_search">🎤 Voice Search</string>
+    <string name="preset_settings">⚙ Settings</string>
+    <string name="preset_app_settings">📱 App Management</string>
+    <string name="preset_date_settings">📅 Date &amp; Time</string>
+    <string name="preset_dev_settings">🔌 Developer Options</string>
+    <string name="preset_power_usage">🔋 Battery Usage</string>
+    <string name="preset_assistant">🎙 Device Assistant</string>
+
+    <!-- Custom Action Section -->
+    <string name="custom_section_title">Custom Actions</string>
+    <string name="custom_input_placeholder">Select a custom action to view/edit</string>
+    <string name="custom_input_label">ACTION</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_delete">Delete</string>
+
+    <!-- Shell Section -->
+    <string name="shell_section_title">Enter Shell Command</string>
+    <string name="shell_input_placeholder">e.g. am start -a android.intent.action.VIEW</string>
+    <string name="shell_input_label">Shell Command</string>
+    <string name="shell_use_root">Root access required. Please grant root privileges to the \"android\" package (System Server) in your root manager, not this app.</string>
+    <string name="shell_show_output">Show command output</string>
+    <string name="shell_output_toast">Toast message</string>
+    <string name="shell_output_notification">System notification</string>
+    <string name="shell_output_dialog">Dialog alert</string>
+    <string name="shell_output_toast_desc">Short, max 2 lines</string>
+    <string name="shell_output_notification_desc">Quiet, but limited lines</string>
+    <string name="shell_output_dialog_desc">Complete, but highly interruptive</string>
+    <string name="shell_exec_success">Shell executed successfully</string>
+    <string name="shell_exec_failed">Shell execution failed</string>
+    <string name="shell_msg_success_empty">Executed successfully with no output</string>
+    <string name="shell_msg_no_error_details">No error details</string>
+    <string name="shell_msg_timeout">Command timed out (exceeded 10s)</string>
+    <string name="shell_msg_failed_with_code">Execution failed (Exit code: %1$d)</string>
+
+    <!-- Add Action Dialog -->
+    <string name="dialog_add_title">Add Custom Action</string>
+    <string name="dialog_edit_title">Edit Custom Action</string>
+    <string name="dialog_label_hint">Label</string>
+    <string name="dialog_label_placeholder">Name this action</string>
+    <string name="dialog_action_hint">Action</string>
+    <string name="dialog_action_placeholder">Enter ACTION string</string>
+    <string name="btn_confirm">OK</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <!-- Delete Confirmation Dialog -->
+    <string name="dialog_delete_title">Delete Custom Action</string>
+    <string name="dialog_delete_message">Are you sure you want to delete \"%s\"?</string>
+    <string name="btn_delete_confirm">Delete</string>
+
+    <!-- Validation Errors -->
+    <string name="error_label_empty">Label cannot be empty</string>
+    <string name="error_action_empty">Action cannot be empty</string>
+    <string name="error_label_duplicate">Label already exists, please use a different name</string>
+
+    <!-- Legacy PreferenceScreen (kept for AAPT linkage) -->
+    <string name="messages_header">Messages</string>
+    <string name="signature_title">Signature</string>
+    <string name="reply_title">Reply</string>
+    <string name="sync_header">Sync</string>
+    <string name="sync_title">Sync</string>
+    <string name="attachment_title">Attachment</string>
+    <string name="attachment_summary_on">Auto-download attachments</string>
+    <string name="attachment_summary_off">Only when connected to Wi-Fi</string>
+
+    <string name ="app_description">ActionButtonInterceptor is a simple app that allows you to customize the actions that are triggered when you press the action button on your device.</string>
+
+    <!-- Appbar and Instructions -->
+    <string name="menu_instructions">Instructions</string>
+    <string name="dialog_instructions_title">User Guidelines</string>
+    <string name="dialog_instructions_message">1. System Setup Required:\nYou must configure and select any function or action in the system shortcut settings first. Otherwise, the system will not emit any key events for the action button, and this app will not be able to trigger or intercept them.\n\n2. Disclaimer (Risk of Bricking):\nThis is an advanced system-level customization tool. Any operation carries risks, including but not limited to device instability, system boot loops, or bricking. The author assumes no responsibility for any device failure, data loss, or issues arising from using this software. Please proceed with caution!</string>
+    <string name="btn_got_it">Got it</string>
+    <string name="section_action_mode">Action Mode</string>
+    <string name="toast_master_switch_on">System shortcut key has been successfully taken over by Action Button Pro</string>
+    <string name="toast_master_switch_off">Action Button Pro has stopped taking over system shortcut keys</string>
+    <string name="about_section_title">About</string>
+    <string name="about_author_label">Author</string>
+    <string name="about_license_label">License</string>
+    <string name="about_repo_label">Open Source Repository</string>
+    <string name="about_repo_desc">Click to open in browser (GitHub)</string>
+
+    <!-- New Settings strings -->
+    <string name="tab_settings">Settings</string>
+    <string name="settings_double_click_timeout_title">Double-Click Window</string>
+    <string name="settings_double_click_timeout_desc">Delays single tap to check for double-click</string>
+    <string name="settings_debounce_timeout_title">Event Debounce</string>
+    <string name="settings_debounce_timeout_desc">Prevents identical events from triggering multiple times too quickly</string>
+    <string name="settings_vibrate_title">Vibrate on Long Press</string>
+    <string name="settings_vibrate_desc">Brief vibration feedback when long press is triggered</string>
+</resources>
