@@ -30,6 +30,14 @@ jobs:
       - name: Grant Execute Permission for Gradlew
         run: chmod +x gradlew
 
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install Android Build Tools
+        run: |
+            sdkmanager "build-tools;36.0.0"
+            sdkmanager "build-tools;29.0.3"
+
       - name: Build Debug and Release APKs
         run: ./gradlew assembleDebug assembleRelease
 
@@ -42,6 +50,7 @@ jobs:
           alias: ${{ secrets.KEY_ALIAS }}
           keyStorePassword: ${{ secrets.KEY_STORE_PASSWORD }}
           keyPassword: ${{ secrets.KEY_PASSWORD }}
+          buildToolsVersion: 34.0.0
 
       - name: Prepare Release Artifacts
         run: |
