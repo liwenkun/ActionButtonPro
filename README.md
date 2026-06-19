@@ -1,7 +1,7 @@
 # ActionButtonPro (一加 15 快捷键自定义 Xposed 模块)
 
 [![GitHub license](https://img.shields.io/github/license/liwenkun/ActionButtonPro)](LICENSE.txt)
-[![Platform](https://img.shields.io/badge/Platform-Android%2015%20%2F%20ColorOS%2016-orange.svg)](#)
+[![Platform](https://img.shields.io/badge/Platform-OnePlus%2015%20%2F%20ColorOS%2016-blue.svg)](#)
 
 **快捷键 Pro (ActionButtonPro)** 是一款专为 **一加 15 (OnePlus 15) ColorOS 16** 打造的物理快捷键（Action Button）深度定制工具。因为快捷键比较特殊，一般的按键映射工具要么监听不到该快捷键，要么面临进程被杀和重启后熄火的问题。该模块通过在系统进程对快捷键的按键事件进行拦截与重定向，不用保活 app 也能稳定运行。
 
@@ -33,8 +33,8 @@
 ### 部署步骤
 1. 下载并安装 **ActionButtonPro** 的最新版 APK。
 2. 打开 LSPosed 管理器，找到本模块并**启用**。
-3. **推荐作用域**：勾选 **系统框架**（包名 `android`）。
-4. **重启手机** 或 重启 SystemServer 使 Hook 注入生效。
+3. **推荐作用域**：勾选 **系统框架**（包名 `system`）。
+4. **重启手机** 或软重启使 Hook 注入生效。
 5. 打开 ActionButtonPro 主界面，分别切换到 **单击**、**双击**、**长按** 标签，配置想要触发的动作。记得把右上角总开关打开。
 
 ---
